@@ -1,0 +1,25 @@
+# project-team-27
+
+**Table of Contents**
+
+- [project-team-27](#project-team-27)
+	- [To-Dos (Assignment)](#to-dos-assignment)
+	- [Sprints](#sprints)
+
+[**Click here to see stories**](https://github.com/cs361fall2018/project-team-27/wiki/User-Stories)
+
+[**Click here to see our Definition of Done**](https://github.com/cs361fall2018/project-team-27/wiki/Definition-of-Done)
+
+## To-Dos (Assignment)
+
+- [x] Make User Stories
+- [ ] Define "done"
+- [ ] Create Tasks from [User Stories](https://github.com/cs361fall2018/project-team-27/wiki/User-Stories)
+- [ ] Create Milestone
+- [ ] Each branch from member for each feature to implement
+- [ ] Make Implementations
+- [ ] Commit and Push to master
+
+## Sprints
+
+- [ ] [Sprint 1](https://cs361fall2018.github.io/assignments/sprint1/)
