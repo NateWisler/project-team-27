@@ -4,6 +4,7 @@
 
 - [project-team-27](#project-team-27)
 	- [To-Dos (Assignment)](#to-dos-assignment)
+	- [Sprints](#sprints)
 
 [**Click here to see stories**](https://github.com/cs361fall2018/project-team-27/wiki/User-Stories)
 
@@ -18,3 +19,7 @@
 - [ ] Each branch from member for each feature to implement
 - [ ] Make Implementations
 - [ ] Commit and Push to master
+
+## Sprints
+
+- [ ] [Sprint 1](https://cs361fall2018.github.io/assignments/sprint1/)
