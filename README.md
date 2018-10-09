@@ -7,6 +7,8 @@
 
 [**Click here to see stories**](https://github.com/cs361fall2018/project-team-27/wiki/User-Stories)
 
+[**Click here to see our Definition of Done**](https://github.com/cs361fall2018/project-team-27/wiki/Definition-of-Done)
+
 ## To-Dos (Assignment)
 
 - [x] Make User Stories
