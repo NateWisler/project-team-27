@@ -35,7 +35,8 @@ public class Board {
 		}
 
 		// TODO Check if placement of ship is valid (Out of bounds)
-		if (x < 0 || x > 9 || y < 'A' || y > 'J') {
+		if (x < 0 || x > 9 || y < 'A' || y > 'J') { // Check if ships are in bounds. X axis are numbers. Y axis are
+													// chars.
 
 			return false;
 
