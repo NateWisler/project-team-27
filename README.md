@@ -14,16 +14,16 @@
 ## To-Dos (Assignment)
 
 - [x] Make User Stories
-- [ ] Define "done"
+- [x] Define "done"
 - [x] Create [Tasks](https://github.com/cs361fall2018/project-team-27/issues) from [User Stories](https://github.com/cs361fall2018/project-team-27/wiki/User-Stories)
 - [x] Create Milestone
-- [ ] Each branch from member for each feature to implement
+- [x] Each branch from member for each feature to implement
 - [ ] Make Implementations
 - [ ] Commit and Push to master
 
 ## Sprints
 
-- [Sprint 1](https://cs361fall2018.github.io/assignments/sprint1/) - [Requirements](https://cs361fall2018.github.io/docs/battleship-requirements.pdf)
+- [Sprint 1](https://cs361fall2018.github.io/assignments/sprint1/) ([Requirements](https://cs361fall2018.github.io/docs/battleship-requirements.pdf))
 
 ## Helpful Stuff
 
