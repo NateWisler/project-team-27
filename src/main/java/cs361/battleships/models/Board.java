@@ -19,7 +19,7 @@ public class Board {
 	 */
 	public boolean placeShip(Ship ship, int x, char y, boolean isVertical) {
 		// TODO Implement
-		
+
 		return false;
 	}
 
@@ -28,6 +28,7 @@ public class Board {
 	 */
 	public Result attack(int x, char y) {
 		//TODO Implement
+		
 		return null;
 	}
 
