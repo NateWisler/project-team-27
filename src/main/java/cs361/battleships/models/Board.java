@@ -23,18 +23,20 @@ public class Board {
 
 		// TODO Check if ship type was already placed
 
-		for (String shipType : boardShips) {
+		for (String boardShipType : boardShips) {
 			System.out.println("== Ship Type: " + shipType);
 
-			if (shipType.equals()){
-				
+			if (ship.shipType.equals(boardShipType)){ 							// Checks if ship is already on board (checks boardShips)
+
+				return false;													// Send help. I have no clue if this is correct
+
 			}
 		}
 
 		// TODO Check if placement of ship is valid (Out of bounds)
 		if (x < 0 || x > 9 || y < 'A' || y > 'J') {
 
-			// Placement out of bounds
+			return false;
 
 		}
 
