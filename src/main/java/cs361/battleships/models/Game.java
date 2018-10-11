@@ -1,7 +1,7 @@
 package cs361.battleships.models;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-
+import java.util.Random
 import java.util.ArrayList;
 import java.util.List;
 
@@ -51,6 +51,10 @@ public class Game {
 
     private char randCol() {
         // TODO implement
+
+        Random rand = new Random();                          // Creates random number generator
+
+        int xCoordinate = rand.nextInt(50) + 1        // This holds a random number between 0 and 50. Change 50 (bound) to be width of board.
         return 'X';
     }
 

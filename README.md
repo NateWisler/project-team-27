@@ -23,7 +23,7 @@
 
 ## Sprints
 
-- [ ] [Sprint 1](https://cs361fall2018.github.io/assignments/sprint1/)
+- [Sprint 1](https://cs361fall2018.github.io/assignments/sprint1/) \* [Requirements](https://cs361fall2018.github.io/docs/battleship-requirements.pdf)
 
 ## Helpful Stuff
 
