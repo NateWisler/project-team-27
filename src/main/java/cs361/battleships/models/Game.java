@@ -63,9 +63,7 @@ public class Game {
         // TODO implement
 
 	    Random rand = new Random();                                 // Creates random number generator
-	    int randRowValue = rand.nextInt(10);                   // This holds a random number between 0 and 9 (represents spots 1 through 10 on the board)
-
-	    return randRowValue;
+	    return rand.nextInt(10);
     }
 
     private boolean randVertical() {
