@@ -10,6 +10,8 @@ public class Board {
 	 */
 	public Board() {
 		// TODO Implement
+
+
 	}
 
 	/*
@@ -17,6 +19,7 @@ public class Board {
 	 */
 	public boolean placeShip(Ship ship, int x, char y, boolean isVertical) {
 		// TODO Implement
+		
 		return false;
 	}
 
