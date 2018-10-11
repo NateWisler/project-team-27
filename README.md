@@ -1,5 +1,7 @@
 # project-team-27
 
+![Rubric](https://i.imgur.com/wcwDS3r.png)
+
 **Table of Contents**
 
 - [project-team-27](#project-team-27)
