@@ -41,7 +41,7 @@ public class Board {
 
 		// TODO Get the size of ship
 
-		// TODO Check if ship is vertical
+		// TODO Check if ship is vertical and adjust coordinates accordingly
 
 		// TODO Check if spot is already taken
 
