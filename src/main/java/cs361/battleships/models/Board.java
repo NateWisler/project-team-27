@@ -20,7 +20,10 @@ public class Board {
 	DO NOT change the signature of this method. It is used by the grading scripts.
 	 */
 	public boolean placeShip(Ship ship, int x, char y, boolean isVertical) {
-		// TODO Implement
+
+		// TODO Check if ship type was already placed
+		// TODO Check if placement of ship is valid
+
 		return false;
 	}
 
@@ -32,11 +35,19 @@ public class Board {
 		return null;
 	}
 
-	public List<Ship> getShips() { return boardShips; }
+	public List<Ship> getShips() {
+		return boardShips;
+	}
 
-	public void setShips(List<Ship> ships) { boardShips.addAll(ships); }
+	public void setShips(List<Ship> ships) {
+		boardShips.addAll(ships);
+	}
 
-	public List<Result> getAttacks() { return boardAttacks; }
+	public List<Result> getAttacks() {
+		return boardAttacks;
+	}
 
-	public void setAttacks(List<Result> attacks) { boardAttacks.addAll(attacks); }
+	public void setAttacks(List<Result> attacks) {
+		boardAttacks.addAll(attacks);
+	}
 }
