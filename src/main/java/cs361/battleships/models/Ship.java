@@ -31,4 +31,12 @@ public class Ship {
 	public List<Square> getOccupiedSquares() { return occupiedSquares; }
 
 	public void setOccupiedSquares(List<Square> location) { occupiedSquares.addAll(location); }
+
+	public String getShipType() { return shipType; }
+
+	public void setShipType(String kind) { shipType = kind; }
+
+	public int getLength() { return length; }
+
+	public void setLength(int length) { this.length = length; }
 }
