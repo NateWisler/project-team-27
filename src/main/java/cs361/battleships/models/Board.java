@@ -49,6 +49,7 @@ public class Board {
 		}
 
 		int shipSize = ship.getLength(); // Gets the size of the ship
+		System.out.println("== Ship Size: " + shipSize);
 
 		// TODO Check if ship is vertical and adjust coordinates accordingly
 
@@ -63,7 +64,7 @@ public class Board {
 
 		// TODO Place ship
 
-		boardShips.add(ship); // Add ship to vector
+		boardShips.add(ship); // Add ship to vector to let the program know that the ship was used
 								// Double check the above line
 
 		return true; // Take a look at this later...
