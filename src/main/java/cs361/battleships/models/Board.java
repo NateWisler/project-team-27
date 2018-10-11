@@ -22,7 +22,25 @@ public class Board {
 	public boolean placeShip(Ship ship, int x, char y, boolean isVertical) {
 
 		// TODO Check if ship type was already placed
-		// TODO Check if placement of ship is valid
+
+		// TODO Check if placement of ship is valid (Out of bounds)
+		if (x < 0 || x > 9 || y < 'a' || y > 'j') {
+
+			// Placement out of bounds
+
+		}
+
+		// TODO Get the size of ship
+
+		// TODO Check if ship is vertical
+
+		// TODO Check if spot is already taken
+
+		// TODO Place ship
+
+		boardShips.add(ship) 				// Add ship to vector
+		
+
 
 		return false;
 	}
