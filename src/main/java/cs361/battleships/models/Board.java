@@ -34,15 +34,9 @@ public class Board {
 
 	public List<Ship> getShips() { return boardShips; }
 
-	public void setShips(List<Ship> ships) {
-		for(int i = 0; i < boardShips.size(); i++)
-			boardShips.add(ships[i]);
-	}
+	public void setShips(List<Ship> ships) { boardShips.addAll(ships); }
 
 	public List<Result> getAttacks() { return boardAttacks; }
 
-	public void setAttacks(List<Result> attacks) {
-		for(int i = 0; i < boardAttacks.size(); i++)
-			boardAttacks.add(attacks[i]);
-	}
+	public void setAttacks(List<Result> attacks) { boardAttacks.addAll(attacks); }
 }
