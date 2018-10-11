@@ -20,7 +20,37 @@ public class Board {
 	DO NOT change the signature of this method. It is used by the grading scripts.
 	 */
 	public boolean placeShip(Ship ship, int x, char y, boolean isVertical) {
-		// TODO Implement
+
+		// TODO Check if ship type was already placed
+		for (String boardShipType : boardShips) {
+			System.out.println("== Ship Type: " + shipType);
+
+			if (ship.shipType.equals(boardShipType)){ 							// Checks if ship is already on board (checks boardShips)
+
+				return false;													// Send help. I have no clue if this is correct
+
+			}
+		}
+
+		// TODO Check if placement of ship is valid (Out of bounds)
+		if (x < 0 || x > 9 || y < 'A' || y > 'J') {
+
+			return false;
+
+		}
+
+		// TODO Get the size of ship
+
+		// TODO Check if ship is vertical and adjust coordinates accordingly
+
+		// TODO Check if spot is already taken
+
+		// TODO Place ship
+
+		boardShips.add(ship) 				// Add ship to vector
+		
+
+
 		return false;
 	}
 
@@ -32,11 +62,19 @@ public class Board {
 		return null;
 	}
 
-	public List<Ship> getShips() { return boardShips; }
+	public List<Ship> getShips() {
+		return boardShips;
+	}
 
-	public void setShips(List<Ship> ships) { boardShips.addAll(ships); }
+	public void setShips(List<Ship> ships) {
+		boardShips.addAll(ships);
+	}
 
-	public List<Result> getAttacks() { return boardAttacks; }
+	public List<Result> getAttacks() {
+		return boardAttacks;
+	}
 
-	public void setAttacks(List<Result> attacks) { boardAttacks.addAll(attacks); }
+	public void setAttacks(List<Result> attacks) {
+		boardAttacks.addAll(attacks);
+	}
 }
