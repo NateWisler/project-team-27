@@ -23,6 +23,14 @@ public class Board {
 
 		// TODO Check if ship type was already placed
 
+		for (String shipType : boardShips) {
+			System.out.println("== Ship Type: " + shipType);
+
+			if (shipType.equals()){
+				
+			}
+		}
+
 		// TODO Check if placement of ship is valid (Out of bounds)
 		if (x < 0 || x > 9 || y < 'A' || y > 'J') {
 
