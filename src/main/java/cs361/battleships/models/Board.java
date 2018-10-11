@@ -24,12 +24,18 @@ public class Board {
 	public boolean placeShip(Ship ship, int x, char y, boolean isVertical) {
 
 		// TODO Check if ship type was already placed
-		for (String boardShipType : boardShips) {
-			System.out.println("== Ship Type: " + shipType);
+		// for (String boardShipType : boardShips) { // Send help. I have no clue if
+		// this syntax is correct
+
+		for (int i = 0; i < boardShips.size(); i++) {
+
+			String boardShipType = boardShips.get(i).getShipType();
+
+			System.out.println("== Ship Type: " + boardShipType);
 
 			if (ship.getShipType().equals(boardShipType)) { // Checks if ship is already on board (checks boardShips)
 
-				return false; // Send help. I have no clue if this is correct
+				return false;
 
 			}
 		}
