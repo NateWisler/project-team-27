@@ -62,12 +62,11 @@ public class Game {
     private int randRow() {
         // TODO implement
 
-	    Random rand = new Random();                                 // Creates random number generator
+	    Random rand = new Random();                                     // Creates random number generator
 	    return rand.nextInt(10);
     }
 
     private boolean randVertical() {
-        // TODO implement
-        return false;
+        return new Random().nextBoolean();                              // Source: https://docs.oracle.com/javase/7/docs/api/java/util/Random.html#nextBoolean%28%29
     }
 }
