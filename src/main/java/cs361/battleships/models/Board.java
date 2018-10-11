@@ -22,7 +22,6 @@ public class Board {
 	public boolean placeShip(Ship ship, int x, char y, boolean isVertical) {
 
 		// TODO Check if ship type was already placed
-
 		for (String boardShipType : boardShips) {
 			System.out.println("== Ship Type: " + shipType);
 
