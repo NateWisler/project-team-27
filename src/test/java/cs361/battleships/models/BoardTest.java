@@ -2,6 +2,8 @@ package cs361.battleships.models;
 
 import org.junit.Test;
 
+import java.util.Random;
+
 import static org.junit.Assert.assertFalse;
 
 public class BoardTest {
@@ -11,4 +13,5 @@ public class BoardTest {
         Board board = new Board();
         assertFalse(board.placeShip(new Ship("MINESWEEPER"), 11, 'C', true));
     }
+
 }
