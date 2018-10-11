@@ -24,7 +24,7 @@ public class Board {
 		// TODO Check if ship type was already placed
 
 		// TODO Check if placement of ship is valid (Out of bounds)
-		if (x < 0 || x > 9 || y < 'a' || y > 'j') {
+		if (x < 0 || x > 9 || y < 'A' || y > 'J') {
 
 			// Placement out of bounds
 
