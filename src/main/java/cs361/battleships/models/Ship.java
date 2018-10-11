@@ -14,11 +14,15 @@ public class Ship {
 	}
 
 	public Ship(String kind) {
-		//TODO implement
+		if(kind.equals("MINESWEEPER"))
+			occupiedSquares = new ArrayList<>(2);
+		else if(kind.equals("DESTROYER"))
+			occupiedSquares = new ArrayList<>(3);
+		else if(kind.equals("BATTLESHIP"))
+			occupiedSquares = new ArrayList<>(4);
 	}
 
 	public List<Square> getOccupiedSquares() {
-		//TODO implement
-		return null;
+		return occupiedSquares;
 	}
 }

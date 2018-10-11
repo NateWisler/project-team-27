@@ -1,9 +1,11 @@
 package cs361.battleships.models;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class Result {
-	private AtackStatus result;
-	private Ship ship;
-	private Square location;
+	@JsonProperty private AtackStatus result;
+	@JsonProperty private Ship ship;
+	@JsonProperty private Square location;
 
 	public AtackStatus getResult() {
 		return result;
