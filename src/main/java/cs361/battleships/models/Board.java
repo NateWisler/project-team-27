@@ -9,7 +9,8 @@ public class Board {
 	private List<Ship> boardShips;
 
 	/*
-	DO NOT change the signature of this method. It is used by the grading scripts.
+	 * DO NOT change the signature of this method. It is used by the grading
+	 * scripts.
 	 */
 	public Board() {
 		boardAttacks = new ArrayList<>();
@@ -17,7 +18,8 @@ public class Board {
 	}
 
 	/*
-	DO NOT change the signature of this method. It is used by the grading scripts.
+	 * DO NOT change the signature of this method. It is used by the grading
+	 * scripts.
 	 */
 	public boolean placeShip(Ship ship, int x, char y, boolean isVertical) {
 
@@ -25,9 +27,9 @@ public class Board {
 		for (String boardShipType : boardShips) {
 			System.out.println("== Ship Type: " + shipType);
 
-			if (ship.shipType.equals(boardShipType)){ 							// Checks if ship is already on board (checks boardShips)
+			if (ship.shipType.equals(boardShipType)) { // Checks if ship is already on board (checks boardShips)
 
-				return false;													// Send help. I have no clue if this is correct
+				return false; // Send help. I have no clue if this is correct
 
 			}
 		}
@@ -47,18 +49,17 @@ public class Board {
 
 		// TODO Place ship
 
-		boardShips.add(ship) 				// Add ship to vector
-		
-
+		boardShips.add(ship); // Add ship to vector
 
 		return false;
 	}
 
 	/*
-	DO NOT change the signature of this method. It is used by the grading scripts.
+	 * DO NOT change the signature of this method. It is used by the grading
+	 * scripts.
 	 */
 	public Result attack(int x, char y) {
-		//TODO Implement
+		// TODO Implement
 		return null;
 	}
 
