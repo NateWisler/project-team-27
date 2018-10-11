@@ -27,7 +27,7 @@ public class Board {
 		for (String boardShipType : boardShips) {
 			System.out.println("== Ship Type: " + shipType);
 
-			if (ship.shipType.equals(boardShipType)) { // Checks if ship is already on board (checks boardShips)
+			if (ship.getShipType().equals(boardShipType)) { // Checks if ship is already on board (checks boardShips)
 
 				return false; // Send help. I have no clue if this is correct
 
@@ -43,7 +43,15 @@ public class Board {
 
 		// TODO Get the size of ship
 
+		int shipSize = ship.getLength(); // Gets the size of the ship
+
 		// TODO Check if ship is vertical and adjust coordinates accordingly
+
+		if (isVertical == true) {
+
+			// Perform checks here
+
+		}
 
 		// TODO Check if spot is already taken
 
