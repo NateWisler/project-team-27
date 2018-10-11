@@ -5,11 +5,15 @@ import java.util.List;
 
 public class Board {
 
+	private List<Result> boardAttacks;
+	private List<Ship> boardShips;
+
 	/*
 	DO NOT change the signature of this method. It is used by the grading scripts.
 	 */
 	public Board() {
-		// TODO Implement
+		boardAttacks = new ArrayList<>();
+		boardShips = new ArrayList<>();
 	}
 
 	/*
@@ -28,21 +32,17 @@ public class Board {
 		return null;
 	}
 
-	public List<Ship> getShips() {
-		//TODO implement
-		return null;
-	}
+	public List<Ship> getShips() { return boardShips; }
 
 	public void setShips(List<Ship> ships) {
-		//TODO implement
+		for(int i = 0; i < boardShips.size(); i++)
+			boardShips.add(ships[i]);
 	}
 
-	public List<Result> getAttacks() {
-		//TODO implement
-		return null;
-	}
+	public List<Result> getAttacks() { return boardAttacks; }
 
 	public void setAttacks(List<Result> attacks) {
-		//TODO implement
+		for(int i = 0; i < boardAttacks.size(); i++)
+			boardAttacks.add(attacks[i]);
 	}
 }
